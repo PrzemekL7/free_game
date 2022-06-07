@@ -16,7 +16,7 @@ function GameCard({game: {thumbnail, title, genre, short_description, id}}) {
                 style={
                 {width: "100%",
                     borderRadius: "4px"}}
-                src={thumbnail} alt=""/>
+                src={thumbnail} alt="image"/>
             <h2>{title}</h2>
             <p>Genre: {genre}</p>
             <p>Description: {short_description}</p>
